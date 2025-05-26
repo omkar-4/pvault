@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="branding">
+      <img src="/icons/appsIcon.png" width="28" height="28" alt="" />
+      <h4>pVault</h4>
+    </div>
+
+    <h1>Password Recovery</h1>
+    <p>Answer your recovery question to reset your master password.</p>
+    <br />
+    <p id="recovery-question"></p>
+    <form id="recovery-form">
+      <input type="text" id="recovery-answer" placeholder="Recovery Answer" required />
+      <br />
+      <button type="submit">Reset Password</button>
+    </form>
+
+    <div>
+      <form id="create-new-pw" hidden>
+        <input type="password" id="new-master-pw" placeholder="New Master Password" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div id="feedback"></div>
+  </body>
+</html>

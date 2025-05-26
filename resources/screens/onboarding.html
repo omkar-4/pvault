@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Architecture -->
+    <!--
+    #neutralinoapp
+    #container
+      #branding
+      h1
+      form
+        input t-text name
+        input t-password master-password
+        input t-password confirm-password
+        input t-text recovery-question
+        input t-text recovery-answer 
+        button t-submit submit
+
+      p
+    -->
+
+    <div id="container">
+      <div id="branding">
+        <img src="/icons/appsIcon.png" width="28" height="28" alt="" />
+        <h4>pVault</h4>
+      </div>
+
+      <h1>Get a New Vault</h1>
+
+      <form id="onboarding-form">
+        <!-- asking for name, password, recovery question and answer -->
+
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          type="password"
+          name="master-password"
+          id="master-password"
+          placeholder="Master Password"
+          required
+        />
+        <input
+          type="password"
+          name="confirm-password"
+          id="confirm-password"
+          placeholder="Confirm Master Password"
+          required
+        />
+        <input
+          type="text"
+          name="recovery-question"
+          id="recovery-question"
+          placeholder="Recovery Question (e.g., What's your pet’s name?)"
+          required
+        />
+        <input
+          type="text"
+          name="recovery-answer"
+          id="recovery-answer"
+          placeholder="Recovery Answer (e.g., Fido)"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+
+      <p>Already set up? <a href="#" id="go-to-signin">Sign In</a></p>
+
+      <p id="feedback"></p>
+
+      <div id="info"></div>
+
+      <br />
+
+      <img src="/icons/logo.gif" alt="Neutralinojs" />
+
+      <div>
+        <a href="#" onclick="openDocs();">Docs</a> &middot;
+
+        <a href="#" onclick="openTutorial();">Video tutorial</a>
+      </div>
+    </div>
+  </body>
+</html>

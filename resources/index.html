@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>pvault</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  </head>
+  <body>
+    <div id="neutralinoapp"></div>
+    <div id="logout-btn"></div>
+
+    <script src="/js/neutralino.js"></script>
+    <!-- app's source files -->
+    <script src="/js/sql-wasm.js"></script>
+    <script>
+      (async () => {
+        const SQL = await initSqlJs({
+          locateFile: (file) => `/js/${file}`,
+        });
+      })();
+    </script>
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

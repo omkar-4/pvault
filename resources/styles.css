@@ -1,0 +1,50 @@
+@import url("manrope.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #272727;
+  color: #fefefe;
+  font-family: "Manrope-Regular", sans-serif;
+  letter-spacing: 1px;
+}
+
+#neutralinoapp {
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  padding: 1rem;
+}
+
+#branding {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+  width: fit-content;
+  height: "fit-content";
+}
+
+#neutralinoapp > h1 {
+  font-size: 18px;
+  font-family: "Manrope-Semibold", sans-serif;
+}
+
+#neutralinoapp > div {
+  font-size: 16px;
+  font-weight: normal;
+}

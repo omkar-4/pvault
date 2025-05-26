@@ -1,0 +1,124 @@
+/**
+* @license
+*
+* Font Family: Manrope
+* Designed by: Mikhail Sharanda
+* URL: https://www.fontshare.com/fonts/manrope/manrope
+* © 2025 Indian Type Foundry
+*
+* Manrope ExtraLight 
+* Manrope Light 
+* Manrope Regular 
+* Manrope Medium 
+* Manrope SemiBold 
+* Manrope Bold 
+* Manrope ExtraBold 
+* Manrope Variable (Variable font)
+
+*
+*/
+@font-face {
+  font-family: "Manrope-ExtraLight";
+  src: url("fonts/manrope/Manrope-ExtraLight.woff2") format("woff2"),
+    url("fonts/manrope/Manrope-ExtraLight.woff") format("woff"),
+    url("fonts/manrope/Manrope-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope-Light";
+  src: url("fonts/manrope/Manrope-Light.woff2") format("woff2"), url("fonts/manrope/Manrope-Light.woff") format("woff"),
+    url("fonts/manrope/Manrope-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url("fonts/manrope/Manrope-Regular.woff2") format("woff2"),
+    url("fonts/manrope/Manrope-Regular.woff") format("woff"),
+    url("fonts/manrope/Manrope-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope-Medium";
+  src: url("fonts/manrope/Manrope-Medium.woff2") format("woff2"),
+    url("fonts/manrope/Manrope-Medium.woff") format("woff"), url("fonts/manrope/Manrope-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope-SemiBold";
+  src: url("fonts/manrope/Manrope-SemiBold.woff2") format("woff2"),
+    url("fonts/manrope/Manrope-SemiBold.woff") format("woff"),
+    url("fonts/manrope/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url("fonts/manrope/Manrope-Bold.woff2") format("woff2"), url("fonts/manrope/Manrope-Bold.woff") format("woff"),
+    url("fonts/manrope/Manrope-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Manrope-ExtraBold";
+  src: url("fonts/manrope/Manrope-ExtraBold.woff2") format("woff2"),
+    url("fonts/manrope/Manrope-ExtraBold.woff") format("woff"),
+    url("fonts/manrope/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 200.0;
+*
+* available axes:
+'wght' (range from 200.0 to 800.0
+*/
+@font-face {
+  font-family: "Manrope-Variable";
+  src: url("fonts/manrope/Manrope-Variable.woff2") format("woff2"),
+    url("fonts/manrope/Manrope-Variable.woff") format("woff"),
+    url("fonts/manrope/Manrope-Variable.ttf") format("truetype");
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+.manrope-regular {
+  font-family: "Manrope-Regular", sans-serif;
+}
+
+.manrope-bold {
+  font-family: "Manrope-Bold", sans-serif;
+}
+
+.manrope-extrabold {
+  font-family: "Manrope-ExtraBold", sans-serif;
+}
+
+.manrope-extralight {
+  font-family: "Manrope-ExtraLight", sans-serif;
+}
+
+.manrope-light {
+  font-family: "Manrope-Light", sans-serif;
+}
+
+.manrope-medium {
+  font-family: "Manrope-Medium", sans-serif;
+}
+
+.manrope-semibold {
+  font-family: "Manrope-SemiBold", sans-serif;
+}
